@@ -1,0 +1,184 @@
+/*This is terribly organized. TO DO: Consolidate and organize better!*/
+
+html {
+  background-image: linear-gradient(-90deg, rgb(181, 146, 160), rgba(191, 173, 164, 0.9));
+}
+
+h1, h2, h3 {
+  color: #440E38;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+p, li, ol, ul {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  line-height: 24px;
+  color: #6E6A6F;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #A56E99;
+}
+
+a:hover {
+  transition: .5s ease-in-out;
+  color: #793f6d;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(195, 179, 171), rgba(0, 0, 0, 0));
+}
+
+.wrapper {
+  width: 800px;
+  margin: 60px auto;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+section {
+  background-color: #fff;
+  background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png")
+}
+
+#profile {
+  background-color: #fff;
+  background-image: url(images/profile-bg.jpg);
+}
+
+#profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+#profile h1, h2 {
+  color: #F9F7F4;
+}
+
+#profile h1 {
+  margin: 5px 0;
+}
+
+#profile h2 {
+  font-size: 13px;
+}
+
+.content-wpr {
+  width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.content-profile {
+  background-image: linear-gradient(90deg, rgb(152, 81, 137), rgba(191, 173, 164, 0.9));
+  padding: 30px;
+  border-radius: 5px;
+  color: #6E6A6F;
+}
+
+h3 {
+  text-align: center;
+  font-size: 24px;
+}
+
+ul.connect-list {
+  display: table;
+  width: 100%;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.connect-list li {
+  width: 200px;
+  display: table-cell;
+  text-align: center;
+}
+
+.connect-list li a {
+  display: block;
+  font-size: 48px;
+}
+
+.connect-list li .fa a {
+  font-size: 18px;
+}
+
+.fa {
+  display: block;
+}
+
+.flex-wpr {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-wpr p {
+  color: #fff;
+}
+
+.flex-wpr h3 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.left {
+  flex: 1;
+  align-self: flex-end;
+}
+
+.right {
+  background-image: linear-gradient(90deg, rgb(152, 81, 137), rgba(191, 173, 164, 0.9));
+  padding: 30px;
+  flex: 2;
+}
+
+.right p {
+  margin-top: 20px;
+}
+
+.img-wpr img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.rose-list-wpr {
+  margin-top: 15px;
+}
+
+.rose-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  width: 300px;
+  background-color: #A56E99;
+  margin: 15px;
+  padding: 10px;
+}
+
+.card img {
+  display: inline-block;
+  max-width: 100%;
+    -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+.card p {
+  color: #fff;
+}
